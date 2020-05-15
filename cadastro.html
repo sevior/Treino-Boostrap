@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <title>Treino Bootstrap</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <header>
+                    <nav class="navbar navbar-light bg-secondary">
+                        <div class="">
+                            <img class="rounded-circle mr-3" src="imagens/Logo.jpg"
+                                alt="Logo da Loja" width="75" height="75">
+                            <a class="navbar-brand text-primary" href="./index.html">L.J Semi Jóias</a>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center my-5 " id="form1">
+        <div class="col-sm-12">
+            <h1 class="text-center text-primary">Criar Conta</h1>
+        </div>
+        <div class="col-sm-12 col-md-10 col-lg-5">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group col-sm-12">
+                        <label for="inputNome" class="text-primary">Nome</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="Maria da Silva">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail" class="text-primary">E-mail</label>
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Exemplo@gmail.com">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-12">
+                        <label for="inputSenha" class="text-primary">Senha</label>
+                        <input type="password" class="form-control" id="inputSenha" placeholder="Senha">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-12">
+                        <label for="inputConfirmarSenha" class="text-primary">Confirmar Senha</label>
+                        <input type="password" class="form-control" id="inputConfirmarSenha" placeholder="Senha">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-12 text-center">
+                        <button type="button" class="btn btn-primary px-5" onclick="proximo()">Proximo</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-12 mt-4">
+                        <p class="text-primary">Já é cadastrado? <a class="text-decoration-none text-dark" href="entrar.html">Entrar.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center my-5 " id="form2">
+        <div class="col-sm-12">
+            <h1 class="text-center text-primary">Criar Conta</h1>
+        </div>
+        <div class="col-sm-12 col-md-10 col-lg-5">
+            <form action="">
+                <div class="form-row text">
+                    <div class="form-group col-sm-12">
+                        <label for="inputLogradouro" class="text-primary">Logradouro</label>
+                        <input type="text" class="form-control" id="inputLogradouro" placeholder="rua, endereço">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-12">
+                        <label for="inputComplemento" class="text-primary">Complemento</label>
+                        <input type="text" class="form-control" id="inputEmail" placeholder="quadra,apt">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-12">
+                        <label for="inputCidade" class="text-primary">Cidade</label>
+                        <input type="text" class="form-control" id="inputCidade" placeholder="Moreno">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-12">
+                        <label for="inputUF" class="text-primary">UF</label>
+                        <select class="custom-select" name="UF" id="inputUF">
+                            <option selected disabled value="">Selecione UF</option>
+                            <option value="PE">PE</option>
+                            <option value="PB">PB</option>
+                            <option value="SP">SP</option>
+                            <option value="RJ">RJ</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-6 text-left">
+                        <button type="button" class="btn btn-primary px-5" onclick="voltar()">Voltar</button>
+                    </div>
+                    <div class="form-group col-sm-6 text-right">
+                        <button type="button" class="btn btn-primary px-5">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-12 mt-4">
+                        <p>&copy; L.J Semi Jóias. <br>2020 - By Gicélio da Silva Júnior <br> L.J Semi Jóias Ltda - CNPJ:
+                            72.518.084/0001-60</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/popper.js/dist/popper.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>

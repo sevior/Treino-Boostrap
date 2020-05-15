@@ -1,0 +1,24 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "E-Commerce de Jóias",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevior/e-commerce.git"
+  },
+  "author": "Gicélio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sevior/e-commerce/issues"
+  },
+  "homepage": "https://github.com/sevior/e-commerce#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
